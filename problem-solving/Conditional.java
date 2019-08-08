@@ -29,7 +29,6 @@ public class Conditional {
             }
         }
 
-
         scanner.close();
     }
 }
