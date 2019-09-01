@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 class Node {
@@ -10,9 +9,9 @@ class Node {
     }
 }
 
-class LinkedList {
+class LinkedList<I extends Number> {
 
-    public static  Node insert(Node head,int data) {
+    public static Node insert(Node head, int data) {
         //Complete this method
         if(head == null){
             head = new Node(data);
