@@ -23,7 +23,6 @@ class Results {
         List<Integer> mergeList = new ArrayList<Integer>();
         mergeList.addAll(a);
         mergeList.addAll(b);
-
         Collections.sort(mergeList);
 
         int sum = 0;
